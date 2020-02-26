@@ -1683,6 +1683,49 @@ Transform:
   m_Father: {fileID: 592785331}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &522665118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 522665120}
+  - component: {fileID: 522665119}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &522665119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522665118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1387573f0f0846fca5ba180b50dc7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &522665120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522665118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &527581602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3820,6 +3863,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 726584ad8d9985b4dba65d6a0bbce96a, type: 3}
+--- !u!1 &1108344603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125448, guid: 74ebb5a6194b59c48a4a2b04bb662bad,
+    type: 3}
+  m_PrefabInstance: {fileID: 1988338886385624140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1108344607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108344603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ff0b98ecac449939de7d1e661bcaad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1113757152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 417780, guid: 9837bffd473066f4dbe271ece730b1a9,
@@ -4385,6 +4446,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c184a57849714c38acf49371cd12cef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forwardVelocity: 100
+  minmumSpeed: -1500
+  maxHorizontalSpeed: 250
+  maxVerticalSpeed: 250
+  left_BorderLimitx: 130
+  right_BorderLimitx: 370
+  vertical_UpperLimit: 160
+  vertical_LowerLimit: 40
+  bonus_HorizontalSpeed: 0
+  boost_HorizontalSpeed: 0
+  startSpeed: 40
+  moving: 0
 --- !u!1001 &1218933232
 PrefabInstance:
   m_ObjectHideFlags: 0
